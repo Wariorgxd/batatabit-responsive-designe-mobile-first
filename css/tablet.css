@@ -1,0 +1,10 @@
+.plan-container--slider{
+    justify-content: center;
+}
+
+.benefits-description-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}

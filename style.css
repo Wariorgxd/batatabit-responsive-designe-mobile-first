@@ -458,3 +458,36 @@ main{
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
 }
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+}
+
+.footer .footer-social{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .footer-social ul{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    list-style: none;
+}
+
+.footer .footer-social li{
+    margin: 10px 0;
+}
+
+.footer .footer-social a{
+    text-decoration: none;
+    color: var(--just-white);
+}
+
